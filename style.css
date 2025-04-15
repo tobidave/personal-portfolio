@@ -13,7 +13,6 @@ main{
     padding-top:20px;
 }
 main #nav h1{
-
     text-align: center;
 }
 #inner-section{
@@ -136,8 +135,85 @@ font-size: 16px;
 .box:hover{
     width: 220px;
     height: 150px;
-
 }
 .btn{
     margin-top: 10px;
+}
+
+
+@media screen and (max-width: 767px )   {
+    main{
+        background-color: black;
+        height: 100%;
+        width: 100%;
+    }
+    #inner-section{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    
+    /* section 1 */
+    #background{
+        border-right: none;
+    }
+
+    /* section 2 */
+    #contact{
+        padding: 0 0 0 0; 
+        border-right: none;
+    }
+    #contact h1{
+        text-align: center;
+    }
+
+    /* secction 3 */
+    .box{
+        width: 170px;
+        height: 100px;
+        background-color: bisque;
+        border-radius: 10px;
+    }
+    .box:hover{
+        width: 170px;
+        height: 100px;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    main{
+        background-color: black;
+        height: 100%;
+        width: 100%;
+    }
+    #inner-section{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    
+    /* section 1 */
+    #background{
+        border-right: none;
+    }
+
+    /* section 2 */
+    #contact{
+        padding: 0 0 0 0; 
+        border-right: none;
+    }
+    #contact h1{
+        text-align: center;
+    }
+
+    /* secction 3 */
+    .box{
+        width: 170px;
+        height: 100px;
+        background-color: bisque;
+        border-radius: 10px;
+    }
+    .box:hover{
+        width: 170px;
+        height: 100px;
+    }
 }
